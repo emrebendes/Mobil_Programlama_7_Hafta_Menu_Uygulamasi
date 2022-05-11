@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bir"
+        android:icon="@drawable/ic_baseline_call_made_24"
+        android:title="Bir"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="İki" >
+        <menu >
+            <item android:title="Buçuk"
+                android:id="@+id/bucuk"/>
+        </menu>
+    </item>
+
+    <item android:title="Üç"
+        android:id="@+id/uc"/>
+</menu>
